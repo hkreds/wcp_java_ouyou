@@ -29,8 +29,8 @@ public class Chapter3_map {
 		map1.remove(0);
 		map1.remove(1); // 何もしない
 		// キーと値を指定して要素を削除する
-//		map1.remove(3, "もも");
-//		map1.remove(3, "なし"); // 何もしない
+		map1.remove(3, "もも");
+		map1.remove(3, "なし"); // 何もしない
 		System.out.println(map1);
 	}
 }
