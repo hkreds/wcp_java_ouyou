@@ -30,5 +30,14 @@ public class Chapter3_list {
 		// 位置を指定して要素を削除する
 		list1.remove(0);
 		System.out.println(list1);
+		
+		// Listの例(拡張for文)
+		List<String> prefectures = new ArrayList<>();
+		prefectures.add("北海道");
+		prefectures.add("青森県");
+		prefectures.add("秋田県");
+		for (String prefecture : prefectures) {
+		  System.out.println(prefecture); // 北海道、青森県、秋田県の順に表示
+		}
 	}
 }
