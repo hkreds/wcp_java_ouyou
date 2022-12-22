@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class chapter3_list {
+public class Chapter3_list {
 	public static void main(String[] args) {
 		// ArrayListを生成する場合
 		List<String> list1 = new ArrayList<String>();
@@ -24,7 +24,7 @@ public class chapter3_list {
 		//3を返す
 		System.out.println(list1.size());
 		
-	// 要素を削除する (要素が文字列の場合、文字列として同じであれば削除されます)
+		// 要素を削除する (要素が文字列の場合、文字列として同じであれば削除されます)
 		list1.remove("バナナ");
 		list1.remove("なし"); // 何もしない
 		// 位置を指定して要素を削除する
