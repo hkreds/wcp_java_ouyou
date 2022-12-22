@@ -1,6 +1,10 @@
 package chapter1.inner_class_sample;
 
 public class Outer {
-	public class Inner {
+	private static String greeting = "こんにちは";
+	public static class Inner {
+		public String hello() {
+			return greeting;
+		}
 	}
 }
