@@ -19,23 +19,18 @@ public class Chapter4_basket {
 		}
 		class Apple {
 		  private String name;
-	
 		  Apple(String name) {
 		    this.name = name;
 		  }
-	
 		  String getName() {
 		    return name;
 		  }
 		}
-	
 		class Peach {
 		  private String name;
-	
 		  Peach(String name) {
 		    this.name = name;
 		  }
-	
 		  String getName() {
 		    return name;
 		  }
@@ -44,5 +39,6 @@ public class Chapter4_basket {
 		System.out.println(appleBasket.get().getName());
 		appleBasket.replace(new Apple("紅玉"));
 		System.out.println(appleBasket.get().getName());
+		//appleBasket.replace(new Peach("黄金桃")); // コンパイルエラー
 	}
 }
