@@ -1,9 +1,9 @@
 package chapter4;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -19,7 +19,6 @@ public class Chapter4_collection {
 		// これ以下はString型ではない変数に代入しているのでコンパイルエラー
 		//int item = items.get(0);
 		//boolean item = items.get(0);
-		System.out.println(item);
 		
 		Set<Integer> set = new LinkedHashSet<>();
 		set.add(1); // OK
